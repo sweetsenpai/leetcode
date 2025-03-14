@@ -21,4 +21,4 @@ jobs:
         pip install -r requirements.txt  
 
     - name: Run Pytest
-      run: pytest -v tests/  # Запускаем тесты
+      run: pytest -v Tests/  # Запускаем тесты
