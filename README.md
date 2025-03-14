@@ -11,6 +11,7 @@
 
 - **`Arrays/`** — задачи по массивам:
     - 📌 [`two_sum.py`](Arrays/two_sum.py) — решение задачи *Two Sum*.
+    - 📌 [`contains_duplicate.py`](Arrays/contains_duplicate.py) — решение задачи *Contains Duplicate*.
 
 - **`Tests/`** — тесты для решенных задач.
 
