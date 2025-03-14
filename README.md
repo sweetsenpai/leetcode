@@ -32,15 +32,15 @@
 > Поиск `index()` делает решение квадратичным `O(n²)`, что плохо для больших `nums`, но код хотя бы работал! ✌️
 
 ```python
-    class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        for index, item in enumerate(nums):
-            search_num = nums.copy()
-            second_num = target - item
-            search_num[index] = None
-            if second_num in search_num:
-                return [index, search_num.index(second_num)]
-        return []
+class Solution:
+  def twoSum(self, nums: List[int], target: int) -> List[int]:
+      for index, item in enumerate(nums):
+          search_num = nums.copy()
+          second_num = target - item
+          search_num[index] = None
+          if second_num in search_num:
+              return [index, search_num.index(second_num)]
+      return []
 ```
 ### ✅ Оптимизированное решение 💡
 В улучшенной версии я использую словарь (dict) для хранения элементов nums, которые мы уже прошли.
@@ -62,8 +62,9 @@ class Solution:
 
 ## 🏆 **Прогресс**
 
-| Категория             | 🟢 Решено |
+| Категория             | Решено |
 |----------------------|-------|
 | **Массивы**         | ✅ 1/1 |
 
 (Обновляется вручную)
+
