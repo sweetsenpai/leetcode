@@ -1,6 +1,6 @@
 import pytest
 
-from Arrays.contains_duplicate import Solution2
+from Arrays.contains_duplicate import Solution
 
 
 @pytest.mark.parametrize(
@@ -17,5 +17,5 @@ from Arrays.contains_duplicate import Solution2
     ]
 )
 def test_contins_duplicate(nums, expected):
-    solution = Solution2()
+    solution = Solution()
     assert solution.containsDuplicate(nums) == expected
