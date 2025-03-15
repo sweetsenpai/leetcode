@@ -1,5 +1,5 @@
 import pytest
-from Arrays.two_sum import Solution
+from Arrays_HashTabls.two_sum import Solution
 
 
 @pytest.mark.parametrize(

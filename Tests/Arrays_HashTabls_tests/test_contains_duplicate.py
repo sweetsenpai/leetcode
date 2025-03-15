@@ -1,6 +1,5 @@
 import pytest
-
-from Arrays.contains_duplicate import Solution
+from Arrays_HashTabls.contains_duplicate import Solution
 
 
 @pytest.mark.parametrize(

@@ -1,5 +1,5 @@
 import pytest
-from HashTable.group_anagrams import Solution
+from Arrays_HashTabls.group_anagrams import Solution
 
 
 @pytest.mark.parametrize(
