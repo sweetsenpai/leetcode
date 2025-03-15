@@ -13,7 +13,7 @@
     - 📌 [`two_sum.py`](Arrays/two_sum.py) — решение задачи *Two Sum*.
     - 📌 [`contains_duplicate.py`](Arrays/contains_duplicate.py) — решение задачи *Contains Duplicate*.
       
-- **`HashTable/`** — задачи по массивам:
+- **`HashTable/`** — задачи по хэш таблицам:
     - 📌 [`valid_anagram.py`](HashTable/valid_anagram.py) — решение задачи *Two Sum*.
 - **`Tests/`** — тесты для решенных задач.
 
