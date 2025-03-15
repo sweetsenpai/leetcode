@@ -27,7 +27,7 @@
       
 - **`HashTable/`** — задачи по хэш таблицам:
     - 📌 [`valid_anagram.py`](HashTable/valid_anagram.py) — решение задачи *Valid Anagram*.
-    - - 📌 [`group_anagrams.py`](HashTable/group_anagrams.py) — решение задачи *Group Anagrams*.
+    - 📌 [`group_anagrams.py`](HashTable/group_anagrams.py) — решение задачи *Group Anagrams*.
 - **`Tests/`** — тесты для решенных задач.
 
 ---
