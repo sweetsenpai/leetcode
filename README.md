@@ -20,7 +20,7 @@
 ---
 ## 📁 **Структура репозитория**
 
-- **`Arrays&HashTable/`** — задачи по массивам и хэш-таблицам:
+- **`Arrays_HashTable/`** — задачи по массивам и хэш-таблицам:
     - 📌 [`two_sum.py`](Arrays_HashTabls/two_sum.py) — решение задачи *Two Sum*.
     - 📌 [`contains_duplicate.py`](Arrays_HashTabls/contains_duplicate.py) — решение задачи *Contains Duplicate*.
     - 📌 [`valid_anagram.py`](Arrays_HashTabls/valid_anagram.py) — решение задачи *Valid Anagram*.
