@@ -15,7 +15,7 @@ from collections import defaultdict
 
 class Solution:
     @staticmethod
-    def isValid(s: str) -> bool:
+    def isValid_my(s: str) -> bool:
         breckit_dict = defaultdict(lambda: None)
         breckit_dict["("] = ")"
         breckit_dict["["] = "]"
@@ -34,3 +34,14 @@ class Solution:
 
         return True
 
+    def isValid(self, s: str) -> bool:
+        bracket_dict = {')': '(', '}': '{', ']': '['}
+        stack = []
+
+        for bracket in s:
+            if bracket in bracket_dict:
+                if not (stack and stack.pop() == bracket_dict[bracket]):
+                    return False
+            else:
+                stack.append(bracket)
+        return not stack
