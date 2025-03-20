@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=flat&logo=python)
+![LeetCode](https://img.shields.io/badge/LeetCode-8%2F30-orange?style=flat&logo=leetcode)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=sweetsenpai&show_icons=true&theme=dark)
+
 # 🚀 LeetCode Solutions
 
 📚 **Коллекция решений задач с LeetCode** на **Python**.  
