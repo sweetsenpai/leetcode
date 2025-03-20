@@ -576,7 +576,7 @@ class Solution:
 На самом деле есть большое часло вариаций, как решить задачу с операторами, есть решения через `if else`, через 
 встроенную библиотеку операторов и ещё несколько подходов которые я не запомнил.
 ```python
-operator_dict = {'+': lambda x, y: x + y,
+operator_dict =         {'+': lambda x, y: x + y,
                          '-': lambda x, y: y - x,
                          '*': lambda x, y: x * y,
                          '/': lambda x, y: int(y / x)}
