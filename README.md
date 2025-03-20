@@ -510,6 +510,28 @@ class MinStack:
 | 1     | `[1,2,0,1]`|`[1,1,0,0]`| `0`      |
 | 2     |`[1,2,0]`|`[1,1,0]`| `0`      |
 | 3     |     `[1,2]`    |    `[1,1]`     | `1`       |
+```python
+def push(self, val: int) -> None:
+    self.stack.append(val)
+    if self.min_stack:
+        val = min(val, self.min_stack[-1])
+    self.min_stack.append(val)
+```
 
+С методами `pop()`, `top()` и  `getMin()` всё довольно просто и понятно.
+1. `pop()` - просто удаляем последний элемент у обоих стэков.
+2. `top()` - возвращаем последний элемент `stack` так как запись новых элементов идет в конец.
+3. `getMin()` - возвращаем последний элемент `min_stack` - он и есть минимальный на данный момент.
 
+```python
+def pop(self) -> None:
+    self.stack.pop()
+    self.min_stack.pop()
+
+def top(self) -> int:
+    return self.stack[-1]
+
+def getMin(self) -> int:
+    return self.min_stack[-1]
+```
 ---
