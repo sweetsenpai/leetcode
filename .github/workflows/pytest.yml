@@ -20,5 +20,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt  
 
-    - name: Run Pytest
-      run: pytest Tests/  # Запускаем тесты
+    - name: Run Pytest with coverage
+      run: |
+        pytest --cov --cov-branch --cov-report=xml Tests/  
+
+    - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
