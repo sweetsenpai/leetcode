@@ -29,7 +29,7 @@
     - 📌 [`TopKElements.py`](Arrays_HashTabls/TopKElements.py) — *Top K Frequent Elements([решение](#-top-k-frequent-elements))*.
 - **`Stack_Queue/`** — задачи по стэкам и очередям:
   - 📌 [`MinStack.py`](Stack_Queue/MinStack.py) — *Min Stack([решение](#-min-stack))*.
-  - 📌 [`Valid_Parentheses.py`](Stack_Queue/Valid_Parentheses.py) — *Valid Parentheses([решение](#-valid-parentheses-1))*.
+  - 📌 [`Valid_Parentheses.py`](Stack_Queue/Valid_Parentheses.py) — *Valid Parentheses([решение](#-valid-parentheses))*.
   - 📌 [`EvaluateReversePolishNotation.py`](Stack_Queue/EvaluateReversePolishNotation.py) — решение задачи *Evaluate Reverse Polish notation*.
 - **`Tests/`** — тесты для решенных задач.
 
