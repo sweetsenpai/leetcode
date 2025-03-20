@@ -2,8 +2,6 @@
 ![LeetCode](https://img.shields.io/badge/LeetCode-8%2F30-orange?style=flat&logo=leetcode)
 [![codecov](https://codecov.io/gh/sweetsenpai/leetcode/branch/main/graph/badge.svg)](https://codecov.io/gh/sweetsenpai/leetcode)
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=sweetsenpai&show_icons=true&theme=dark&count_private=true&hide=contribs,prs)
-
 # 🚀 LeetCode Solutions
 
 📚 **Коллекция решений задач с LeetCode** на **Python**.  
