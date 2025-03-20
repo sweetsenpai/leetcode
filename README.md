@@ -22,14 +22,14 @@
 ## 📁 **Структура репозитория**
 
 - **`Arrays_HashTables/`** — задачи по массивам и хэш-таблицам:
-    - 📌 [`two_sum.py`](Arrays_HashTabls/two_sum.py) — решение задачи *Two Sum([📝](#-two-sum-problem))*.
-    - 📌 [`contains_duplicate.py`](Arrays_HashTabls/contains_duplicate.py) — решение задачи *Contains Duplicate*.
-    - 📌 [`valid_anagram.py`](Arrays_HashTabls/valid_anagram.py) — решение задачи *Valid Anagram*.
-    - 📌 [`group_anagrams.py`](Arrays_HashTabls/group_anagrams.py) — решение задачи *Group Anagrams*.
-    - 📌 [`TopKElements.py`](Arrays_HashTabls/TopKElements.py) — решение задачи *Top K Frequent Elements*.
+    - 📌 [`two_sum.py`](Arrays_HashTabls/two_sum.py) — *Two Sum([решение](#-two-sum-problem))*.
+    - 📌 [`contains_duplicate.py`](Arrays_HashTabls/contains_duplicate.py) — *Contains Duplicate([решение](#-contains-duplicate))*.
+    - 📌 [`valid_anagram.py`](Arrays_HashTabls/valid_anagram.py) — *Valid Anagram([решение](#-valid-anagram))*.
+    - 📌 [`group_anagrams.py`](Arrays_HashTabls/group_anagrams.py) — *Group Anagrams([решение](#-group-anagrams))*.
+    - 📌 [`TopKElements.py`](Arrays_HashTabls/TopKElements.py) — *Top K Frequent Elements([решение](#-top-k-frequent-elements))*.
 - **`Stack_Queue/`** — задачи по стэкам и очередям:
-  - 📌 [`MinStack.py`](Stack_Queue/MinStack.py) — решение задачи *Min Stack*.
-  - 📌 [`Valid_Parentheses.py`](Stack_Queue/Valid_Parentheses.py) — решение задачи *Valid Parentheses*.
+  - 📌 [`MinStack.py`](Stack_Queue/MinStack.py) — *Min Stack([решение](#-min-stack))*.
+  - 📌 [`Valid_Parentheses.py`](Stack_Queue/Valid_Parentheses.py) — *Valid Parentheses([решение](#-valid-parentheses-1))*.
   - 📌 [`EvaluateReversePolishNotation.py`](Stack_Queue/EvaluateReversePolishNotation.py) — решение задачи *Evaluate Reverse Polish notation*.
 - **`Tests/`** — тесты для решенных задач.
 
@@ -414,8 +414,12 @@ else:
 if not (stack and stack.pop() == bracket_dict[bracket]):
     return False
 ```
+
+
 В конце мы проверяем как там дела у нашего стэка, если строка пришла корректная, то согласно условиям вложенности скобок,
 мы от`pop`-или наш стэк так что он стал пустым и возвращаем `True`, а если что-то ещё осталось то возвращаем `False`.
+
+
 ---
 ---
 ## 📝 **Min Stack**
