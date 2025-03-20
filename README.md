@@ -557,7 +557,7 @@ class Solution:
                          '/': lambda x, y: int(y / x)}
         operand_list = []
         for token in tokens:
-            if token in operator_dict.keys():
+            if token in operator_dict:
                 result = operator_dict[token](operand_list.pop(), operand_list.pop())
                 operand_list.append(result)
             else:
