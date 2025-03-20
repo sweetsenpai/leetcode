@@ -30,7 +30,7 @@
 - **`Stack_Queue/`** — задачи по стэкам и очередям:
   - 📌 [`MinStack.py`](Stack_Queue/MinStack.py) — *Min Stack([решение](#-min-stack))*.
   - 📌 [`Valid_Parentheses.py`](Stack_Queue/Valid_Parentheses.py) — *Valid Parentheses([решение](#-valid-parentheses))*.
-  - 📌 [`EvaluateReversePolishNotation.py`](Stack_Queue/EvaluateReversePolishNotation.py) — решение задачи *Evaluate Reverse Polish notation*.
+  - 📌 [`EvaluateReversePolishNotation.py`](Stack_Queue/EvaluateReversePolishNotation.py) — *Evaluate Reverse Polish notation([решение](#-evaluate-reverse-polish-notation))*.
 - **`Tests/`** — тесты для решенных задач.
 
 ---
@@ -611,7 +611,7 @@ for token in tokens:
         operand_list.append(int(token))
 return operand_list[0]
 ```
-Задача мне показалась слишком легкой для среднего уровня, если честно, то даже не вижу смысла разбирать ее с помощью табличек.
+Задача мне показалась слишком легкой для среднего уровня, если честно, даже не вижу смысла разбирать ее с помощью табличек.
 
 ---
 
