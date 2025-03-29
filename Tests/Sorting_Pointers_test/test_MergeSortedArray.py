@@ -1,5 +1,5 @@
 import pytest
-from Sorting.MergeSortedArray import Solution
+from Sorting_Pointers.MergeSortedArray import Solution
 
 
 @pytest.mark.parametrize(

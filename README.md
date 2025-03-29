@@ -14,12 +14,12 @@
 
 ## 🏆 **Прогресс**
 
-| Категория                 | Решено | Цель  |
-|---------------------------|--------|-------|
-| **Массивы & Хэш таблицы** | ✅ 5/5  | 🎯 5  |
-| **Стэк & Очередь**        | ✅ 3/3  | 🎯 3  |
-| **Сортировка**            | ✅ 1/1  | 🎯  1 |
-| **Всего**                 | ✅ 9/30 | 🎯 30 |
+| Категория                  | Решено | Цель  |
+|----------------------------|--------|-------|
+| **Массивы & Хэш таблицы**  | ✅ 5/5  | 🎯 5  |
+| **Стэк & Очередь**         | ✅ 3/3  | 🎯 3  |
+| **Сортировка и указатели** | ✅ 1/5  | 🎯  1 |
+| **Всего**                  | ✅ 9/30 | 🎯 30 |
 
 (Обновляется вручную)
 
@@ -36,8 +36,8 @@
   - 📌 [`MinStack.py`](Stack_Queue/MinStack.py) — *Min Stack([решение](#-min-stack))*.
   - 📌 [`Valid_Parentheses.py`](Stack_Queue/Valid_Parentheses.py) — *Valid Parentheses([решение](#-valid-parentheses))*.
   - 📌 [`EvaluateReversePolishNotation.py`](Stack_Queue/EvaluateReversePolishNotation.py) — *Evaluate Reverse Polish notation([решение](#-evaluate-reverse-polish-notation))*.
-- **`Sorting/`** — задачи по сортировкам:
-  - 📌 [`MergeSortedArray.py`](Sorting/MergeSortedArray.py) — *Merge Sorted Array([решение](#-merge-sorted-array))*.
+- **`Sorting_Pointers/`** — задачи по сортировкам и указателям:
+  - 📌 [`MergeSortedArray.py`](Sorting_Pointers/MergeSortedArray.py) — *Merge Sorted Array([решение](#-merge-sorted-array))*.
 - **`Tests/`** — тесты для решенных задач.
 
 ---
