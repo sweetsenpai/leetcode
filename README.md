@@ -38,7 +38,7 @@
   - 📌 [`EvaluateReversePolishNotation.py`](Stack_Queue/EvaluateReversePolishNotation.py) — *Evaluate Reverse Polish notation([решение](#-evaluate-reverse-polish-notation))*.
 - **[`Sorting_Pointers/`](Sorting_Pointers)** — задачи по сортировкам и указателям:
   - 📌 [`MergeSortedArray.py`](Sorting_Pointers/MergeSortedArray.py) — *Merge Sorted Array([решение](#-merge-sorted-array))*.
-  - 📌 [`RemoveDuplicatesSortedArrray.py`](Sorting_Pointers/RemoveDuplicatesSortedArrray.py) — *Remove Duplicates from Sorted Array([решение](#-merge-sorted-array))*.
+  - 📌 [`RemoveDuplicatesSortedArrray.py`](Sorting_Pointers/RemoveDuplicatesSortedArrray.py) — *Remove Duplicates from Sorted Array([решение](#-remove-duplicates-from-sorted-array))*.
 - **`Tests/`** — тесты для решенных задач.
 
 ---
