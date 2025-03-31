@@ -23,9 +23,3 @@ class Solution:
                     nums[fast] = 0
                 slow += 1
         return
-
-
-test = [2,1]
-x = Solution()
-x.moveZeroes(test)
-print(test)
