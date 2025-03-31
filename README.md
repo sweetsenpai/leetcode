@@ -39,7 +39,7 @@
 - **[`Sorting_Pointers/`](Sorting_Pointers)** — задачи по сортировкам и указателям:
   - 📌 [`MergeSortedArray.py`](Sorting_Pointers/MergeSortedArray.py) — *Merge Sorted Array([решение](#-merge-sorted-array))*.
   - 📌 [`RemoveDuplicatesSortedArrray.py`](Sorting_Pointers/RemoveDuplicatesSortedArrray.py) — *Remove Duplicates from Sorted Array([решение](#-remove-duplicates-from-sorted-array))*.
-  - 📌 [`Move Zeroes.py`](Sorting_Pointers/Move Zeroes.py) — *Move Zeroes*.
+  - 📌 [`MoveZeroes.py`](Sorting_Pointers/MoveZeroes.py) — *Move Zeroes*.
 - **[`Tests/`](Tests)** — тесты для решенных задач.
 
 ---
