@@ -18,8 +18,8 @@
 |----------------------------|---------|-------|
 | **Массивы & Хэш таблицы**  | ✅ 5/5   | 🎯 5  |
 | **Стэк & Очередь**         | ✅ 3/3   | 🎯 3  |
-| **Сортировка и указатели** | ✅ 2/2   | 🎯  5 |
-| **Всего**                  | ✅ 10/30 | 🎯 30 |
+| **Сортировка и указатели** | ✅ 3/3   | 🎯  5 |
+| **Всего**                  | ✅ 11/30 | 🎯 30 |
 
 (Обновляется вручную)
 
@@ -39,6 +39,7 @@
 - **[`Sorting_Pointers/`](Sorting_Pointers)** — задачи по сортировкам и указателям:
   - 📌 [`MergeSortedArray.py`](Sorting_Pointers/MergeSortedArray.py) — *Merge Sorted Array([решение](#-merge-sorted-array))*.
   - 📌 [`RemoveDuplicatesSortedArrray.py`](Sorting_Pointers/RemoveDuplicatesSortedArrray.py) — *Remove Duplicates from Sorted Array([решение](#-remove-duplicates-from-sorted-array))*.
+  - 📌 [`Move Zeroes.py`](Sorting_Pointers/Move Zeroes.py) — *Move Zeroes*.
 - **[`Tests/`](Tests)** — тесты для решенных задач.
 
 ---
