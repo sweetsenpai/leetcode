@@ -1,5 +1,5 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue?style=flat&logo=python)
-![LeetCode](https://img.shields.io/badge/LeetCode-11%2F30-orange?style=flat&logo=leetcode)
+![LeetCode](https://img.shields.io/badge/LeetCode-12%2F30-orange?style=flat&logo=leetcode)
 [![codecov](https://codecov.io/gh/sweetsenpai/leetcode/branch/main/graph/badge.svg)](https://codecov.io/gh/sweetsenpai/leetcode)
 
 # 🚀 LeetCode Solutions
@@ -18,8 +18,8 @@
 |----------------------------|---------|-------|
 | **Массивы & Хэш таблицы**  | ✅ 5/5   | 🎯 5  |
 | **Стэк & Очередь**         | ✅ 3/3   | 🎯 3  |
-| **Сортировка и указатели** | ✅ 3/3   | 🎯  5 |
-| **Всего**                  | ✅ 11/30 | 🎯 30 |
+| **Сортировка и указатели** | ✅ 4/4   | 🎯  5 |
+| **Всего**                  | ✅ 12/30 | 🎯 30 |
 
 (Обновляется вручную)
 
@@ -40,6 +40,7 @@
   - 📌 [`MergeSortedArray.py`](Sorting_Pointers/MergeSortedArray.py) — *Merge Sorted Array([решение](#-merge-sorted-array))*.
   - 📌 [`RemoveDuplicatesSortedArrray.py`](Sorting_Pointers/RemoveDuplicatesSortedArrray.py) — *Remove Duplicates from Sorted Array([решение](#-remove-duplicates-from-sorted-array))*.
   - 📌 [`MoveZeroes.py`](Sorting_Pointers/MoveZeroes.py) — *Move Zeroes*.
+  - 📌 [`ValidPalindrome.py`](Sorting_Pointers/ValidPalindrome.py) — *Valid Palindrome*.
 - **[`Tests/`](Tests)** — тесты для решенных задач.
 
 ---
