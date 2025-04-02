@@ -17,9 +17,8 @@ class Solution:
         """
         slow = 0
         for fast in range(len(nums)):
-            if nums[fast] != 0:
-                if nums[slow] == 0:
-                    nums[slow] = nums[fast]
-                    nums[fast] = 0
+            if nums[fast]:
+                if not nums[slow]:
+                    nums[slow], nums[fast] = nums[fast], 0
                 slow += 1
         return
