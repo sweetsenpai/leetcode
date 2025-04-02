@@ -40,7 +40,7 @@
   - 📌 [`MergeSortedArray.py`](Sorting_Pointers/MergeSortedArray.py) — *Merge Sorted Array([решение](#-merge-sorted-array))*.
   - 📌 [`RemoveDuplicatesSortedArrray.py`](Sorting_Pointers/RemoveDuplicatesSortedArrray.py) — *Remove Duplicates from Sorted Array([решение](#-remove-duplicates-from-sorted-array))*.
   - 📌 [`MoveZeroes.py`](Sorting_Pointers/MoveZeroes.py) — *Move Zeroes([решение](#-move-zeroes))*.
-  - 📌 [`ValidPalindrome.py`](Sorting_Pointers/ValidPalindrome.py) — *Valid Palindrome*.
+  - 📌 [`ValidPalindrome.py`](Sorting_Pointers/ValidPalindrome.py) — *Valid Palindrome([решение](#-valid-palindrome))*.
 - **[`Tests/`](Tests)** — тесты для решенных задач.
 
 ---
@@ -1152,7 +1152,6 @@ slow += 1
 
 ---
 
----
 ## 📝 **Valid Palindrome**
 ### 📌 Задача:
 Фраза считается палиндромом, если после приведения всех букв к нижнему регистру и удаления всех неалфавитно-цифровых символов она читается одинаково слева направо и справа налево. 
@@ -1194,4 +1193,6 @@ s[left] != s[len(s) - 1 - left]
 ```
 
 Больше ничего интересного про эту задачу рассказть не могу🫤.
+
+---
 
