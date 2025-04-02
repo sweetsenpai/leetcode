@@ -39,7 +39,7 @@
 - **[`Sorting_Pointers/`](Sorting_Pointers)** — задачи по сортировкам и указателям:
   - 📌 [`MergeSortedArray.py`](Sorting_Pointers/MergeSortedArray.py) — *Merge Sorted Array([решение](#-merge-sorted-array))*.
   - 📌 [`RemoveDuplicatesSortedArrray.py`](Sorting_Pointers/RemoveDuplicatesSortedArrray.py) — *Remove Duplicates from Sorted Array([решение](#-remove-duplicates-from-sorted-array))*.
-  - 📌 [`MoveZeroes.py`](Sorting_Pointers/MoveZeroes.py) — *Move Zeroes*.
+  - 📌 [`MoveZeroes.py`](Sorting_Pointers/MoveZeroes.py) — *Move Zeroes([решение](#-move-zeroes)*.
   - 📌 [`ValidPalindrome.py`](Sorting_Pointers/ValidPalindrome.py) — *Valid Palindrome*.
 - **[`Tests/`](Tests)** — тесты для решенных задач.
 
@@ -1145,7 +1145,7 @@ if not nums[slow]:
 slow += 1
 ```
 Перед тем как поменять местами `nums[fast]` и `nums[slow]`, мы проверяем чтобы `slow` указывал на ноль, что логично.
-Но не в зависимости от того, совершили мы перестоновку или нет, мы всё равно свдигаем `slow`.
+Но в независимости от того, совершили мы перестоновку или нет, мы всё равно свдигаем `slow`.
 Это делается для того, чтобы не поменять местами два не нулевых числа, что сломало бы последовательность и дало бы неверный ответ.
 
 На этом можно закончить с этой задачей.
