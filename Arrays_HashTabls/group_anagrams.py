@@ -3,6 +3,7 @@
 ## Given an array of strings strs, group the anagrams together. You can return the answer in any order.
 url: https://leetcode.com/problems/group-anagrams/description/
 """
+
 from collections import defaultdict
 from typing import List
 
@@ -41,35 +42,8 @@ class Solution:
         for word in strs:
             counts = [0] * 26  # все буквы английского алфавита
             for char in word:
-                counts[ord(char) - ord("a")] +=1
+                counts[ord(char) - ord("a")] += 1
             key = tuple(counts)
             groups[key].append(word)
 
         return list(groups.values())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

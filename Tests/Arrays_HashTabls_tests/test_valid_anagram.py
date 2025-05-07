@@ -1,4 +1,5 @@
 import pytest
+
 from Arrays_HashTabls.valid_anagram import Solution
 
 
@@ -9,11 +10,7 @@ from Arrays_HashTabls.valid_anagram import Solution
         ("aacc", "ccac", False),
         ("rat", "car", False),
     ],
-    ids=[
-        "true_case",
-        "hard_case",
-        "false_case"
-    ]
+    ids=["true_case", "hard_case", "false_case"],
 )
 def test_valid_anagram(s, t, expected):
     solution = Solution()

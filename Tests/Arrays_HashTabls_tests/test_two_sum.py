@@ -1,4 +1,5 @@
 import pytest
+
 from Arrays_HashTabls.two_sum import Solution
 
 
@@ -12,12 +13,12 @@ from Arrays_HashTabls.two_sum import Solution
         ([-3, 4, 3, 90], 0, [0, 2]),
     ],
     ids=[
-            "basic_case",
-            "no_duplicates",
-            "duplicate_numbers",
-            "no_solution",
-            "negative_numbers",
-        ]
+        "basic_case",
+        "no_duplicates",
+        "duplicate_numbers",
+        "no_solution",
+        "negative_numbers",
+    ],
 )
 def test_two_sum(nums, target, expected):
     solution = Solution()

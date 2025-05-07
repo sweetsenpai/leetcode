@@ -1,4 +1,5 @@
 import pytest
+
 from Stack_Queue.Valid_Parentheses import Solution
 
 
@@ -14,7 +15,7 @@ from Stack_Queue.Valid_Parentheses import Solution
         ("{[(])}", False),
         ("(]", False),
         ("){", False),
-        ("(){}}{", False)
+        ("(){}}{", False),
     ],
     ids=[
         "easy_case_one_pair",
@@ -27,7 +28,7 @@ from Stack_Queue.Valid_Parentheses import Solution
         "chat_gpt_second_case",
         "leetcode_only_close",
         "leet_code_error",
-    ]
+    ],
 )
 def test_valid_parentheses(s, expected):
     solution = Solution()

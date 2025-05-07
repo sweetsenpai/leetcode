@@ -1,5 +1,7 @@
 import pytest
+
 from Sorting_Pointers.MostWater import Solution
+
 
 @pytest.mark.parametrize(
     "height, expected",
@@ -16,7 +18,7 @@ from Sorting_Pointers.MostWater import Solution
         "collector_case",
         "middle_peak_case",
         "max_in_middle_case",
-    ]
+    ],
 )
 def test_mostwater(height, expected):
     solution = Solution()

@@ -9,6 +9,7 @@ Consider the number of unique elements of nums to be k, to get accepted, you nee
 
 https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 """
+
 from typing import List
 
 
@@ -18,9 +19,8 @@ class Solution:
             return 0
         k = 1
         for index in range(1, len(nums)):
-            if nums[index] != nums[index-1]:
+            if nums[index] != nums[index - 1]:
                 nums[k] = nums[index]
                 k += 1
 
         return k
-

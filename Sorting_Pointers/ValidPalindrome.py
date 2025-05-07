@@ -11,9 +11,9 @@ https://leetcode.com/problems/valid-palindrome/
 
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        s = ''.join(filter(str.isalnum, s)).lower()
+        s = "".join(filter(str.isalnum, s)).lower()
 
-        for left in range(len(s)//2):
+        for left in range(len(s) // 2):
             if s[left] != s[len(s) - 1 - left]:
                 return False
         return True

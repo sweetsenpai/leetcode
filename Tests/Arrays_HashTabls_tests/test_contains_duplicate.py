@@ -1,4 +1,5 @@
 import pytest
+
 from Arrays_HashTabls.contains_duplicate import Solution
 
 
@@ -9,11 +10,7 @@ from Arrays_HashTabls.contains_duplicate import Solution
         ([1, 2, 3, 4], False),
         ([1, 1, 1, 3, 3, 4, 3, 2, 4, 2], True),
     ],
-    ids=[
-        "basic_case",
-        "no_duplicates",
-        "many_duplicates"
-    ]
+    ids=["basic_case", "no_duplicates", "many_duplicates"],
 )
 def test_contins_duplicate(nums, expected):
     solution = Solution()

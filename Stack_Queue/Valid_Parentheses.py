@@ -10,12 +10,13 @@ An input string is valid if:
 
 https://leetcode.com/problems/valid-parentheses/description/
 """
+
 from collections import defaultdict
 
 
 class Solution:
     def isValid(self, s: str) -> bool:
-        bracket_dict = {')': '(', '}': '{', ']': '['}
+        bracket_dict = {")": "(", "}": "{", "]": "["}
         stack = []
 
         for bracket in s:

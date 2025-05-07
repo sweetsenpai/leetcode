@@ -1,20 +1,19 @@
 import pytest
+
 from Arrays_HashTabls.group_anagrams import Solution
 
 
 @pytest.mark.parametrize(
     "strs, expected",
     [
-        (["eat", "tea", "tan", "ate", "nat", "bat"],
-         [['eat', 'tea', 'ate'], ['tan', 'nat'], ['bat']]),
+        (
+            ["eat", "tea", "tan", "ate", "nat", "bat"],
+            [["eat", "tea", "ate"], ["tan", "nat"], ["bat"]],
+        ),
         ([""], [[""]]),
-        (["a"], [["a"]])
+        (["a"], [["a"]]),
     ],
-    ids=[
-        "real_case",
-        "empty_case",
-        "one_letter_case"
-    ]
+    ids=["real_case", "empty_case", "one_letter_case"],
 )
 def test_goup_anagrams(strs, expected):
     solution = Solution()
@@ -24,16 +23,14 @@ def test_goup_anagrams(strs, expected):
 @pytest.mark.parametrize(
     "strs, expected",
     [
-        (["eat", "tea", "tan", "ate", "nat", "bat"],
-         [['eat', 'tea', 'ate'], ['tan', 'nat'], ['bat']]),
+        (
+            ["eat", "tea", "tan", "ate", "nat", "bat"],
+            [["eat", "tea", "ate"], ["tan", "nat"], ["bat"]],
+        ),
         ([""], [[""]]),
-        (["a"], [["a"]])
+        (["a"], [["a"]]),
     ],
-    ids=[
-        "real_case",
-        "empty_case",
-        "one_letter_case"
-    ]
+    ids=["real_case", "empty_case", "one_letter_case"],
 )
 def test_better_goup_anagrams(strs, expected):
     solution = Solution()

@@ -1,5 +1,7 @@
 import pytest
+
 from Sorting_Pointers.ValidPalindrome import Solution
+
 
 @pytest.mark.parametrize(
     "s, expected",
@@ -8,15 +10,15 @@ from Sorting_Pointers.ValidPalindrome import Solution
         ("race a car", False),
         (" ", True),
         (".,", True),
-        ("0P", False)
+        ("0P", False),
     ],
     ids=[
         "leetcode_regular_test",
         "leetcode_regular_false_test",
         "leetcode_emppty_test",
         "only_punctuation",
-        "digit_letter_mismatch"
-    ]
+        "digit_letter_mismatch",
+    ],
 )
 def test_ValidPalindrome(s, expected):
     solution = Solution()

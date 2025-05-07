@@ -15,16 +15,19 @@ Note that:
 
 https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
 """
-from typing import List
+
 import operator
+from typing import List
 
 
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
-        operator_dict = {'+': lambda x, y: x + y,
-                         '-': lambda x, y: y - x,
-                         '*': lambda x, y: x * y,
-                         '/': lambda x, y: int(y / x)}
+        operator_dict = {
+            "+": lambda x, y: x + y,
+            "-": lambda x, y: y - x,
+            "*": lambda x, y: x * y,
+            "/": lambda x, y: int(y / x),
+        }
         operand_list = []
         for token in tokens:
             if token in operator_dict:

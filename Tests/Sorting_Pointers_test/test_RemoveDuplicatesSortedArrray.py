@@ -1,4 +1,5 @@
 import pytest
+
 from Sorting_Pointers.RemoveDuplicatesSortedArrray import Solution
 
 
@@ -10,7 +11,7 @@ from Sorting_Pointers.RemoveDuplicatesSortedArrray import Solution
         ([1, 2, 3, 4, 5], 5),
         ([1, 1, 1, 1, 1], 1),
         ([1, 2, 2, 3, 4, 4, 5, 5, 6], 6),
-        ([], 0)
+        ([], 0),
     ],
     ids=[
         "leetcode_first_test",
@@ -18,8 +19,8 @@ from Sorting_Pointers.RemoveDuplicatesSortedArrray import Solution
         "unique_elements",
         "all_same_elements",
         "mixed_case",
-        "empty_case"
-    ]
+        "empty_case",
+    ],
 )
 def test_solution(nums, expected):
     solution = Solution()

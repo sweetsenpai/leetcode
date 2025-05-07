@@ -11,7 +11,9 @@ Notice that you may not slant the container.
 
 https://leetcode.com/problems/container-with-most-water/description/
 """
+
 from typing import List
+
 
 class Solution:
     @staticmethod

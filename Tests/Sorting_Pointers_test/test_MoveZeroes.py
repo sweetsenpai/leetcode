@@ -1,4 +1,5 @@
 import pytest
+
 from Sorting_Pointers.MoveZeroes import Solution
 
 
@@ -14,14 +15,14 @@ from Sorting_Pointers.MoveZeroes import Solution
         ([1, 2, 0, 3, 4], [1, 2, 3, 4, 0]),
     ],
     ids=[
-        'leetcode_regular_test',
+        "leetcode_regular_test",
         "leetcode_onlyzeroes_test",
         "leetcode_none_zeroes",
         "multiple_leading_zeros",
         "single_nonzero_with_trailing_zeros",
         "one_number_in_middle",
-        "one_zeroe_in_middle"
-    ]
+        "one_zeroe_in_middle",
+    ],
 )
 def test_MoveZeroes(nums, expected):
     solution = Solution()

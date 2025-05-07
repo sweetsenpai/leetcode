@@ -9,4 +9,3 @@ class Solution:
         dict_s = {item: s.count(item) for item in set(s)}
         dict_b = {item: t.count(item) for item in set(t)}
         return dict_b == dict_s
-
