@@ -1,5 +1,5 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue?style=flat&logo=python)
-![LeetCode](https://img.shields.io/badge/LeetCode-13%2F30-orange?style=flat&logo=leetcode)
+![LeetCode](https://img.shields.io/badge/LeetCode-14%2F30-orange?style=flat&logo=leetcode)
 [![codecov](https://codecov.io/gh/sweetsenpai/leetcode/branch/main/graph/badge.svg)](https://codecov.io/gh/sweetsenpai/leetcode)
 
 # 🚀 LeetCode Solutions
@@ -19,7 +19,8 @@
 | **Массивы & Хэш таблицы**  | ✅ 5/5   | 🎯 5  |
 | **Стэк & Очередь**         | ✅ 3/3   | 🎯 3  |
 | **Сортировка и указатели** | ✅ 5/5   | 🎯  5 |
-| **Всего**                  | ✅ 13/30 | 🎯 30 |
+| **Sliding Window**         | ✅ 1/3   | 🎯 3  |
+| **Всего**                  | ✅ 14/30 | 🎯 30 |
 
 (Обновляется вручную)
 
@@ -42,6 +43,8 @@
   - 📌 [`MoveZeroes.py`](Sorting_Pointers/MoveZeroes.py) — *Move Zeroes([решение](#-move-zeroes))*.
   - 📌 [`ValidPalindrome.py`](Sorting_Pointers/ValidPalindrome.py) — *Valid Palindrome([решение](#-valid-palindrome))*.
   - 📌 [`MostWater.py`](Sorting_Pointers/MostWater.py) — *Container With Most Water([решение](#-container-with-most-water))*.
+- **[`Sliding_Window/`](Sliding_Window)** — задачи по sliding window:
+  - 📌 [`BuySellStock.py`](Sliding_Window/BuySellStock.py) — *Best Time to Buy and Sell Stock*.
 - **[`Tests/`](Tests)** — тесты для решенных задач.
 
 ---
