@@ -19,8 +19,8 @@
 | **Массивы & Хэш таблицы**  | ✅ 5/5   | 🎯 5  |
 | **Стэк & Очередь**         | ✅ 3/3   | 🎯 3  |
 | **Сортировка и указатели** | ✅ 5/5   | 🎯  5 |
-| **Sliding Window**         | ✅ 1/3   | 🎯 3  |
-| **Всего**                  | ✅ 14/30 | 🎯 30 |
+| **Sliding Window**         | ✅ 2/3   | 🎯 3  |
+| **Всего**                  | ✅ 15/30 | 🎯 30 |
 
 (Обновляется вручную)
 
@@ -45,6 +45,7 @@
   - 📌 [`MostWater.py`](Sorting_Pointers/MostWater.py) — *Container With Most Water([решение](#-container-with-most-water))*.
 - **[`Sliding_Window/`](Sliding_Window)** — задачи по sliding window:
   - 📌 [`BuySellStock.py`](Sliding_Window/BuySellStock.py) — *Best Time to Buy and Sell Stock*.
+  - 📌 [`LongestSubstring.py`](Sliding_Window/LongestSubstring.py) — *Longest substring without repeating characters*.
 - **[`Tests/`](Tests)** — тесты для решенных задач.
 
 ---
